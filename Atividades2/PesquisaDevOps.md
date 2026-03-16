@@ -38,10 +38,10 @@ desenvolvimento. Afinal, é este o propósito da sigla:
   Em alguns casos, até mesmo as equipes de qualidade e segurança podem estar em integração com a equipe de devs. E juntas, elas usufruem de normas, padrões e ferramentas ditadas
 por este modelo de trabalho. 
 
-> Essas equipes usam práticas para automatizar processos que historicamente sempre foram manuais e lentos. Eles usam uma pilha de tecnologia e ferramentas que os
-ajudam a operar e desenvolver aplicativos de modo rápido e confiável. Essas ferramentas também ajudam os engenheiros a realizar tarefas independentemente
-(por exemplo, implantação de código e provisionamento de infraestrutura) que normalmente exigiriam a ajuda de outras equipes, e isso aumenta ainda mais a velocidade
-da equipe.
+  > Essas equipes usam práticas para automatizar processos que historicamente sempre foram manuais e lentos. Eles usam uma pilha de tecnologia e ferramentas que os
+  ajudam a operar e desenvolver aplicativos de modo rápido e confiável. Essas ferramentas também ajudam os engenheiros a realizar tarefas independentemente
+  (por exemplo, implantação de código e provisionamento de infraestrutura) que normalmente exigiriam a ajuda de outras equipes, e isso aumenta ainda mais a velocidade
+  da equipe.
 
 --- 
 
