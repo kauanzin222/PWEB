@@ -13,6 +13,8 @@ body {
     background: linear-gradient(to bottom, #434343 0%, #000000 100%);
 
     padding-bottom: 30px;
+
+    zoom: 90%;
 }
 
 p {
@@ -100,6 +102,8 @@ li {
     justify-content: center;
     align-items: center;
     gap: 16px;
+
+    text-align: center;
 }
 
 .card-assunto {
@@ -142,7 +146,7 @@ li {
 
     border-radius: 15px;
 
-    min-height: 100px;
+    min-height: 120px;
     padding: 10px;
 }
 
