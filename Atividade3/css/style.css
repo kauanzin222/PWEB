@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, #434343 0%, #000000 100%);
+
+    padding-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    border-radius: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 2px;
+
+    text-align: center;
+    font-size: 13px;
+
+    color: aliceblue;
+    background-color: #434343;
+}
+
+ul {
+    padding-left: 20px;
+
+    text-align: left;
+
+    font-size: 18px;
+}
+
+li {
+    position: relative;
+    padding-left: 15px;
+}
+
+.bd-dark-blue {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: white;
+    box-shadow: 2px 2px 5px 2px rgba(255, 255, 255, 0.2);
+}
+
+.bd-blue {
+    background: linear-gradient(145deg, #1a1f2c, #0f1219);
+    color: white;
+    box-shadow: 2px 2px 5px 2px rgba(255, 255, 255, 0.2);
+}
+
+.bd-deep {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.citacao {
+    margin-left: auto;
+    margin-right: auto;
+
+    border-left: 5px solid #0e1843;
+    border-radius: 5px;
+
+    background: rgba(128, 128, 128, 0.559);
+
+    padding: 12px;
+    width: 35%;
+}
+
+.flex-container {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-assunto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 15px;
+
+    height: 150px;
+    padding: 12px;
+    width: 150px;
+
+    cursor: pointer;
+}
+
+.card-img {
+    width: 250px;
+    height: 200px;
+
+    margin-bottom: 10px;
+    display: block;
+
+    border-radius: 5px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 10px;
+
+    width: auto;
+    height: auto;
+}
+
+.card-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    min-height: 100px;
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+}

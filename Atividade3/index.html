@@ -12,39 +12,46 @@
 <body>
     <header class="bd-dark-blue">
         <h2>O que é DevOps? 💭</h2>
-        <div class="citacao"><em>"Integração inovadora de equipes de TI"</em></div>
+        <blockquote class="citacao"><em>"Integração inovadora de equipes de TI"</em></blockquote>
     </header>
 
     <main>
         <!-- FlexBox -->
         <div class="flex-container">
-            <div class="card-assunto bd-blue" href="#sobre">
-                <h3>O que é DevOps? 🤔</h3>
+            <div class="card-assunto bd-blue">
+                <a href="#sobre">
+                    <h3>O que é DevOps?</h3>
+                </a>
             </div>
 
-            <div class="card-assunto bd-blue" href="#surgimento">
-                <h3>Como surgiu e porquê? ⏳</h3>
+            <div class="card-assunto bd-blue">
+                <a href="#surgimento">
+                    <h3>Como surgiu e porquê?</h3>
+                </a>
             </div>
 
-            <div class="card-assunto bd-blue" href="#funcionamento">
-                <h3>Como funciona? 🛠</h3>
+            <div class="card-assunto bd-blue">
+                <a href="#funcionamento">
+                    <h3>Como funciona?</h3>
+                </a>
             </div>
 
-            <div class="card-assunto bd-blue" href="#vantagens">
-                <h3>Quais as vantagens? 🤩</h3>
+            <div class="card-assunto bd-blue">
+                <a href="#vantagens">
+                    <h3>Quais as vantagens?</h3>
+                </a>
             </div>
         </div>
 
-        <section id="sobre">
+        <section>
             <div class="container bd-dark-blue">
-                <h2>O que é DevOps?</h2>
-                <p>     DevOps é um conceito, conhecido mais como um modelo de trabalho, onde atinge diversas formas e
+                <h2>O que é DevOps? 🤔</h2>
+                <p> DevOps é um conceito, conhecido mais como um modelo de trabalho, onde atinge diversas formas e
                     aspectos que envolvem a área corporativa, desde a mentalidade, práticas,
                     padrões, normas e uso de ferramentas específicas. Segundo a
                     <a href="https://aws.amazon.com/pt/devops/what-is-devops/"><strong>AWS</strong></a>.
                 </p>
-                <br>
-                <br>
+                <hr>
                 <p>DevOps é a combinação de filosofias culturais, práticas e ferramentas que aumentam a capacidade de
                     uma empresa de distribuir aplicativos e serviços em alta velocidade:
                     otimizando e aperfeiçoando produtos em um ritmo mais rápido do que o das empresas que usam processos
@@ -56,7 +63,7 @@
 
         <section id="surgimento">
             <div class="container bd-dark-blue">
-                <h2>Como surgiu e porquê?</h2>
+                <h2>Como surgiu e porquê? ⏳</h2>
                 <p>O movimento do DevOps começou a tomar forma entre 2007 e 2008, quando as operações de TI e as
                     comunidades de desenvolvimento de software passaram a expressar
                     o que acreditavam ser um nível fatal de disfuncionalidade no setor. As comunicações entre os setores
@@ -71,47 +78,52 @@
 
         <section id="funcionamento">
             <div class="container bd-dark-blue">
-                <h2>Como funciona?</h2>
-                <p>Em suma, a ideia geral é fazer com a equipe de desenvolvimento não fique afastada do <strong>TODO</strong>, ou
+                <h2>Como funciona? 🛠</h2>
+                <p>Em suma, a ideia geral é fazer com a equipe de desenvolvimento não fique afastada do
+                    <strong>TODO</strong>, ou
                     seja, as equipes de operações (por exemplo) trabalham juntamente com a de
-                    desenvolvimento. Afinal, é este o propósito da sigla:</p>
-
+                    desenvolvimento. Afinal, é este o propósito da sigla:
+                </p>
+                <hr>
                 <div class="flex-container">
-                    <div class="card">
+                    <div class="card bd-deep">
                         <h2>Dev</h2>
                         <img src="images/dev.png" alt="dev" class="card-img">
+                        <small>Desenvolvimento</small>
                     </div>
-                    <div class="card">
+                    <div class="card bd-deep">
                         <h2>Ops</h2>
                         <img src="images/ops.png" alt="ops" class="card-img">
+                        <small>Operações de TI</small>
                     </div>
                 </div>
-                <br>
-                <blockquote class="citacao">
+                <hr>
+                <p>
                     Em alguns casos, até mesmo as equipes de qualidade e segurança podem estar em integração com
                     a equipe de devs. E juntas, elas usufruem de normas, padrões e ferramentas ditadas
-                    por este modelo de trabalho.</blockquote>
+                    por este modelo de trabalho.</p>
             </div>
         </section>
 
         <section id="vantagens">
             <div class="container bd-dark-blue">
-                <h2>Quais as vantages?</h2>
-
-                <ul>
-                    <li>Entrega Rápida 🚚💨</li>
-                    <li>Velocidade de Operações 🔧</li>
-                    <li>Confiabilidade 🔒</li>
-                    <li>Escalonamento 📈</li>
-                    <li>Colaboração Melhorada 🤗</li>
-                    <li>Segurança 👮‍♂️</li>
-                </ul>
+                <h2>Quais as vantagens? 🤩</h2>
+                <hr>
+                <div class="flex-container">
+                    <div class="card-column bd-deep"><span>🚚</span><p>Entrega Rápida</p></div>
+                    <div class="card-column bd-deep"><span>🔧</span><p>Velocidade de Operações</p></div>
+                    <div class="card-column bd-deep"><span>🔒</span><p>Confiabilidade</p></div>
+                    <div class="card-column bd-deep"><span>📈</span><p>Escalonamento</p></div>
+                    <div class="card-column bd-deep"><span>🤗</span><p>Colaboração Melhorada</p></div>
+                    <div class="card-column bd-deep"><span>👮</span><p>Segurança</p></div>
+                </div>
+                <hr>
             </div>
         </section>
 
         <section id="consideracoes">
             <div class="container bd-dark-blue">
-                <h2>Considerações Finais</h2>
+                <h2>Considerações Finais 🤓</h2>
                 <p>Com isso, adotar DevOps <strong>não é apenas uma escolha técnica, mas um diferencial estratégicos
                     </strong> para
                     qualquer empresa que queira sobreviver no mercado atual. No cenária atual,
@@ -139,6 +151,10 @@
             </div>
         </section>
     </main>
+
+    <footer>
+        Feito por Kauã Cardoso, 2026
+    </footer>
 </body>
 
 </html>
