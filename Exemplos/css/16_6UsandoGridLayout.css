@@ -1,0 +1,45 @@
+.grid-pai {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #3498db; /* Borda para o grid pai */
+}
+
+header {
+  grid-column: 1 / -1;
+  background-color: #ecf0f1;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
+  grid-template-rows: 1fr;
+  border: 2px dashed #e74c3c; /* Borda para o subgrid (main) */
+}
+
+article {
+  grid-column: 1 / -1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  grid-column: 1 / -1;
+  background-color: #ecf0f1;
+  padding: 15px;
+  text-align: center;
+}
