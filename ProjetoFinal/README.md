@@ -4,6 +4,12 @@ Este módulo contempla a implementação completa do **CRUD de Profissionais** p
 
 ---
 
+## ⚠️ ATENÇÃO
+
+Peço um pouco de paciência ao acessar o sistema, as coisas podem acontecer de maneira demorada (delay de no máximo 50s) por conta de estar sendo hospedado gratuitamente pelo **Render**!!!
+
+---
+
 ## 🚀 Links de Acesso
 
 * **🌐 Aplicação Web (Deploy):** [Acessar o GISA](https://eduardofproenca.github.io/GISA_Codigo/)
