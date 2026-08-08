@@ -1,6 +1,6 @@
 # 🌐 Programação Web - Atividades e Projetos Acadêmicos
 
-![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-Green)
 
 Este repositório foi criado para centralizar todos os meus estudos, anotações e projetos práticos desenvolvidos na disciplina de **Programação Web**. O foco desta matéria é o aprofundamento em tecnologias fundamentais para o ecossistema web, preparando-me para desafios complexos como **Desenvolvedor Full-Stack**.
 
